@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: clamp(12px, 6vw, 16px);
+}
+/* @keyframes spin{
+0%{
+   transform: rotateX('angle');
+} 
+100%{
+
+}   
+} */
+ 
+ 
