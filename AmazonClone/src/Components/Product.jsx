@@ -18,7 +18,9 @@ const Product = () => {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("product", JSON.stringify(product));
+    if (product.length > 0) {
+      localStorage.setItem("product", JSON.stringify(product));
+    }
   }, [product]);
 
   const handleSubmit = (e) => {
